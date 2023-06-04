@@ -1,0 +1,22 @@
+#image-central-container{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    background-color: #999;
+}
+#nube-image{
+position: absolute;
+margin-top: -100px;
+width: 600px;
+height: 600px;
+}
+#cientist-image{
+position: absolute;
+width: 200px;
+height: 200px;
+margin-top: 400px;
+}
+
+#nube-image{
+
+}

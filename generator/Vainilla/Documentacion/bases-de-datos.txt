@@ -1,0 +1,60 @@
+[
+  { nombre: 'John', edad: 35, salario: 5000 },
+  { nombre: 'Jane', edad: 28, salario: 4000 },
+  { nombre: 'Mike', edad: 42, salario: 6000 },
+  { nombre: 'Emily', edad: 31, salario: 5500 }
+];
+
+[
+  { nombre: 'Camisa', precio: 20 },
+  { nombre: 'Pantalón', precio: 40 },
+  { nombre: 'Zapatos', precio: 50 },
+  { nombre: 'Cinturón', precio: 10 },
+];
+
+[
+  { nombre: 'Camisa', precio: 20 },
+  { nombre: 'Pantalón', precio: 40 },
+  { nombre: 'Zapatos', precio: 50 },
+  { nombre: 'Cinturón', precio: 10 },
+]
+[ 
+ { nombre: 'Sombrero', precio: 15 },
+  { nombre: 'Calcetines', precio: 5 },
+  { nombre: 'Chaqueta', precio: 60 },
+  { nombre: 'Vestido', precio: 30 },
+]
+[
+  { nombre: 'Blusa', precio: 25 },
+  { nombre: 'Corbata', precio: 12 },
+  { nombre: 'Bufanda', precio: 18 },
+  { nombre: 'Gorra', precio: 8 },
+]
+[
+{ nombre: 'Falda', precio: 35 },
+  { nombre: 'Sudadera', precio: 45 },
+  { nombre: 'Chaleco', precio: 55 },
+  { nombre: 'Botas', precio: 70 },
+]
+
+[
+  { nombre: 'Pantalones cortos', precio: 22 },
+  { nombre: 'Suéter', precio: 38 },
+  { nombre: 'Abrigo', precio: 75 },
+  { nombre: 'Traje', precio: 90 },
+
+]
+
+[
+ { nombre: 'Gafas de sol', precio: 28 },
+  { nombre: 'Bolsa', precio: 32 },
+  { nombre: 'Pendientes', precio: 15 },
+  { nombre: 'Reloj', precio: 50 },
+]
+
+[
+{ nombre: 'Sandalias', precio: 42 },
+  { nombre: 'Collar', precio: 20 },
+  { nombre: 'Pulsera', precio: 12 },
+  { nombre: 'Paraguas', precio: 18 },
+]
