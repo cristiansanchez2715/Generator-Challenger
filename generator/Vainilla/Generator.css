@@ -1,22 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #010204, #000507, #000807, #040a04, #0d0b01);
+
+}
 #image-central-container{
+    margin-top: -200px;
+    margin-left: 400px;
     position: relative;
-    width: 500px;
-    height: 700px;
-    background-color: #999;
+    width: 800px;
+    height: 900px;
+    background-image: linear-gradient(to bottom, #242903, #1e2305, #191c06, #131606, #0c0e06);
+    border-radius: 20px;
+}
+#pizarra-image{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 600px;
+    height: 400px;
+    z-index: 1;
 }
 #nube-image{
 position: absolute;
-margin-top: -100px;
+top: 50px;
+left: 200px;
 width: 600px;
 height: 600px;
+z-index: 8;
 }
 #cientist-image{
 position: absolute;
 width: 200px;
 height: 200px;
-margin-top: 400px;
+top: 650px;
+left: 275px;
+z-index: 3;
+}
+#btn-hard{
+    z-index: 10;
 }
 
-#nube-image{
+#generator-dificult{
+    margin-top: 00px;
+    margin-left: 00px;
+}
+#generator-input{
+    width: 150px;
+    height: 400px;
+    background-color: black;
+    color: white;
+margin-top: 200px;
+border-radius: 20px;
+}
+#elige{
+    font-size: 20px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn-dificult{
+z-index: 10;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+width: 100px;
+height: 20px;
+justify-content: center;
+align-items: center;
+background-color: #0c0e06;
+color: white;
+margin-left: 25px;
 
+}
+
+.btn-dificult:hover{
+    color: rgb(145, 4, 4);
+}
+h3{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+#pResult{
+    border-radius: 20px;
+    justify-content: center;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    color: white;
+    background-color: transparent;
+    z-index: 10;
+    margin-left: 315px;
+    margin-top: -285px;
+}
+
+#parrafo-base-datos{
+    position: absolute;
+    top: 475px;
+    left: 250px;
+    color: white;
+    z-index: 10;
+}
+h5{
+ font-size: 30px;
+ position: absolute;
+ top: 10px;
+ left: 270px; 
+ color: white;  
+ background-color: #0c0e06;
+ border-radius: 20px;
+ padding: 10px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+#btn-random {
+    font-size: 20px;
+    background-color: #0c0e06;
+    color: white;
+}
+#btn-random:hover{
+    color: rgb(145, 4, 4);
+}
+
+#generar-base-datos{
+    font-size: 20px;
+    background-color: #0c0e06;
+    color: white;
+}
+#generar-base-datos:hover{
+    color: rgb(145, 4, 4);
+}
+#locky{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 600px;
+
+}
+
+@media(min-width: 320px){
+    #image-central-container{
+margin-left: 00px;
+height: 1200px; 
+}
+body{
+    height: auto;
+}
+}
+
+@media(min-width: 1024px){
+    #image-central-container{
+        margin-left: 25%;
+        height: 1200px; 
+        } 
 }
